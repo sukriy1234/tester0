@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('coba0');
-});
+ Route::get('/', function () {
+     return view('coba0');
+ });
 
 Route::post('/coba', 'coba_controller@read_file');
-Route::post('/coba0', 'coba_controller@read_file0');
+//Route::post('/coba0', 'coba_controller@read_file0');
